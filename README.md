@@ -1,25 +1,49 @@
-<<<<<<< HEAD
-# dcfdashboard
-Institutional DCF modeling dashboard
-=======
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Institutional DCF Modeling Dashboard
 
-# Run and deploy your AI Studio app
+A lightweight, web-based Discounted Cash Flow (DCF) dashboard designed to make it fast to build, stress-test, and communicate intrinsic value scenarios.
 
-This contains everything you need to run your app locally.
+> Status: early-stage / experimental. Expect rough edges.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1k6gIOrZE-Sr4ZpfWY6MPpJC5mvGZMSGG
+## What it does
 
-## Run Locally
+- **Interactive DCF inputs** for growth, margins, reinvestment, discount rate, and terminal assumptions.
+- **Scenario-style outputs** to compare base / bull / bear cases.
+- **Clean, presentation-friendly** valuation summary you can iterate on quickly.
 
-**Prerequisites:**  Node.js
+## Getting started
 
+### Prerequisites
+- **Node.js** (recommended: current LTS)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
->>>>>>> 652877c (Initial commit)
+### Install
+```bash
+npm install
+```
+
+### Run locally
+```bash
+npm run dev
+```
+
+Then open the local URL printed in your terminal (typically `http://localhost:3000`).
+
+### Build
+```bash
+npm run build
+npm run start
+```
+
+## Contributing
+
+Issues and pull requests are welcome. If you plan a larger change, open an issue first to align on scope.
+
+## Disclaimer
+
+This project is provided for **educational and informational purposes only**. It is **not** investment advice, a recommendation, or an offer to buy or sell any security. Use at your own risk.
+
+## About the author
+
+**Jeremy Leung** — investment specialist focused on applied AI workflows for institutional investing.
+
+- LinkedIn: https://linkedin.com/in/leungjeremy  
+- Newsletter: https://aimightbewrong.substack.com
